@@ -7,5 +7,5 @@ You must make sure that the designated wifi card is in monitor mode. This cannot
 If you do not know the name of your wifi card then first input the command << ifconfig >> into the terminal. Then complete the above step. After this, the name of the wifi card often changes, so you must double check if it has by re-inputting the command << ifconfig >> and finding the changed name. 
 Using these steps, you can then input the correct value into the terminal, which will allow you to use the tool.
 ### BSSID
-If you do not know the intended BSSID target then our other tool does manage to locate this. This is also found on github here.
+If you do not know the intended BSSID target then our other tool does manage to locate this. This is also found on github [here](https://github.com/h00per5/bssid-locator).
   
